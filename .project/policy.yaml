@@ -1,0 +1,64 @@
+project:
+  id: "space-2d-mmo"
+  name: "2D MMO"
+  repo: "Garrin-Project-Labs/project-space-2d-mmo"
+  sourceOfTruth: discord
+
+owner:
+  discordUserId: "220350737010393090"
+  label: "tque"
+
+discord:
+  guildId: "1515020347425030245"
+  channelId: "1519142915262120058"
+  visibility: "public"
+  projectsCategoryId: "1516195966330343444"
+  projectCreationChannelId: "1516196374620799127"
+  roles:
+    viewer:
+      roleId: "1519142908224344104"
+      name: "space-2d-mmo-viewer"
+    contributor:
+      roleId: "1519142910241673371"
+      name: "space-2d-mmo-contributor"
+    maintainer:
+      roleId: "1519142912414322840"
+      name: "space-2d-mmo-maintainer"
+
+authorization:
+  allowViewerQuestions: true
+  allowContributorsToClaimTasks: true
+  requireMaintainerForPlanApproval: true
+  requireMaintainerForDocsAndMemory: true
+  requireOwnerForInvites: false
+  requireOwnerForRepoCreation: true
+  requireOwnerForArchiveDelete: true
+  requireGlobalOwnerForGatewayConfig: true
+
+publishing:
+  githubPages: true
+  githubPagesStatus: "pending"
+  githubPagesUrl: "https://garrin-project-labs.github.io/project-space-2d-mmo/"
+  githubPagesSource: "main:/docs"
+  publicDemos: true
+
+starter:
+  preset: "game-2d-phaser"
+
+workflow:
+  taskThreads: automatic
+  taskCommandStyle: natural_language
+  friendlyTaskName: quest
+  requireMention: true
+  jamMode: temporary_ambient
+  branchNaming: "task/<id>-<slug>"
+  requirePlanApproval: true
+  requireMaintainerForDocsAndMemory: true
+  allowBotMergeWithMaintainerApproval: true
+  githubIssues: false
+
+audit:
+  level: medium
+  path: ".project/audit/events.jsonl"
+  includePrLinks: true
+  includeDiscordThreadLinks: true
