@@ -1,0 +1,7 @@
+directory:
+  listed: true
+  title: "2D MMO"
+  description: "Playable fantasy MMO prototype for the browser."
+  tags: [game, mmo, fantasy]
+  status: "live"
+  sortOrder: 1000
