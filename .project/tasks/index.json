@@ -1,4 +1,12 @@
 {
-  "nextId": 1,
-  "tasks": []
+  "nextId": 2,
+  "tasks": [
+    {
+      "id": 1,
+      "slug": "fantasy-mmo-retheme",
+      "title": "Retheme the project as a fantasy MMO",
+      "status": "done",
+      "file": ".project/tasks/001-fantasy-mmo-retheme.json"
+    }
+  ]
 }

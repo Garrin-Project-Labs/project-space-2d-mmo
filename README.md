@@ -1,4 +1,4 @@
-# 2D MMO
+# Fantasy MMO
 
 Project workspace for the Discord-bound OpenClaw agent `space-2d-mmo`.
 
@@ -29,5 +29,9 @@ Role names in policy:
 - Viewer: `space-2d-mmo-viewer`
 - Contributor: `space-2d-mmo-contributor`
 - Maintainer: `space-2d-mmo-maintainer`
+
+## Current direction
+
+This project is now a **fantasy MMO**: a cozy browser-based world with little adventurers, places to explore, tiny quests, and eventually other players sharing the map.
 
 Current enforcement note: this card is the human-facing policy for the project. The factory scaffolds these role names and approval expectations, but not every role check is hard-enforced yet. Keep maintainer approval explicit for durable changes until enforcement is tightened.

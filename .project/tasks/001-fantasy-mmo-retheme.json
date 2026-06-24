@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "slug": "fantasy-mmo-retheme",
+  "title": "Retheme the project as a fantasy MMO",
+  "status": "done",
+  "ownerUserId": "220350737010393090",
+  "createdAt": "2026-06-24T01:11:11Z",
+  "updatedAt": "2026-06-24T01:14:00Z",
+  "source": "discord:1519147847969275904",
+  "summary": "Rename the project concept from space MMO to fantasy MMO and update starter copy/demo tone.",
+  "verification": "npm run build passes"
+}
