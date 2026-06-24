@@ -2,6 +2,7 @@ directory:
   listed: true
   title: "2D MMO"
   description: "Playable fantasy MMO prototype for the browser."
+  thumbnail: "docs/assets/thumbnails/space-2d-mmo.png"
   tags: [game, mmo, fantasy]
   status: "live"
   sortOrder: 1000
